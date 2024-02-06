@@ -25,10 +25,86 @@ header #logo {
 
 header nav {
     display: flex;
+    align-items: center;
     gap: 1rem;
 }
 
-header nav a {
+header a {
     text-decoration: none;
     color: #f1f1f1;
+}
+
+header #auth {
+    margin-left: auto;
+    display: flex;
+    gap: 1rem ;
+    align-items: center;
+}
+
+header #auth button {
+    background-color: #9D5691;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+section#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    overflow: hidden;
+}
+
+section#hero .hero-text {
+    margin-right: auto;
+    padding: 0 1rem;
+    width: 600px;
+}
+
+section#hero .hero-text h1 {
+    color: #9D5691;
+    font-size: 2rem;
+}
+
+section#hero .hero-text p {
+    color:#0B3954 ;
+    font-size: 1rem;
+}
+
+section#hero .hero-text button {
+    background-color: #9D5691;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    color: #f1f1f1;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem #0B3954;
+}
+
+section#hero #hero-img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#hero #hero-flower {
+    z-index: 1;
+    height: 400px ;
+}
+
+section#hero #hero-bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 0;
+    z-index: -1 ;
 }
