@@ -149,4 +149,64 @@ section#shop .row .card button {
 
 section#login {
     height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+section#login img{
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+section#login .card {
+    border: 1px solid #f2eeee;
+    border-radius: 2rem;
+    padding: 2rem;
+    background-color: #f1f1f1;
+}
+
+section#login .card h3 {
+    text-align: center;
+
+}
+
+section#login .card form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+section#login .card form input {
+    padding: 1rem;
+    border: 2px solid #f2eeee;
+    border-radius: 5px;
+    margin: 0.5rem 0 ;
+}
+
+section#login .card form .btns {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end ;
+    align-items: center;
+    gap: 1rem ;
+}
+
+section#login .card form .btns a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+section#login .card form button {
+    background-color: #9D5691;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    color: #f1f1f1;
+    cursor: pointer;
 }
